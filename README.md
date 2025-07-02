@@ -137,6 +137,8 @@ g++ --version
 
 ```powershell
 build.bat
+# need administration priority, assets_folder_with_version example: D:\robots\Assets\Isaac\4.5
+cmd /c mklink /D .\_build\windows-x86_64\release\assets  path/to/assets_folder_with_version 
 ```
 
 ### 3. Run
